@@ -17,3 +17,69 @@ code {
   margin: 0;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: gray;
+  color: white;
+}
+
+nav a {
+  margin: 0 2rem;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav a:hover{
+  color: blue;
+}
+
+.nav-btn{
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: blue;
+  opacity: 1;
+  font-size: 1.5rem;
+}
+
+.nav-close-btn{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+@media only screen and (max-width: 992px){
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: navy;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+  
+  .responsive_nav{
+    transform: none;
+  }
+}
+
+
+@media screen and (min-width: 992px){
+  .nav-btn{
+    visibility: hidden;
+  }
+}
