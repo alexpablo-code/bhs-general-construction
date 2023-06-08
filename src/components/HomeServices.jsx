@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../styles/homeServices.css';
 
 const HomeServices = () => {
 const [services] = useState([
@@ -13,6 +14,18 @@ const [services] = useState([
     {
         name: 'Concrete Service',
         description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
+    },
+    {
+        name: 'Foundation',
+        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
+    },
+    {
+        name: 'Decorative Concrete',
+        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
+    },
+    {
+        name: 'Concrete Slabs',
+        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
     }
 ])
 
@@ -21,6 +34,9 @@ const [services] = useState([
             <div className="H-sercives-content-box">
                 <h3>Services</h3>
                 <div className="H-services-container">
+                    <div className="services-section-sum">
+                        <p>We specialize in providing excellent and affordable concrete services, including concrete installation jobs, slabs, and repair services.</p>
+                    </div>
                     {
                         services.map(service => (
                             <div className="H-service_box">

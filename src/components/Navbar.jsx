@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { useRef } from "react";
+const logo = require('./images/business_logo.png');
 
 const Navbar = () => {
     const navRef = useRef();
+    const navigate = useNavigate();
 
     const showNavbar = () => {
         navRef.current.classList.toggle('responsive_nav');
@@ -12,7 +14,7 @@ const Navbar = () => {
 
     return (
         <header>
-            <h1>BHS</h1>
+            <img src={logo} alt="site-logo" className="site-logo" onClick={() => navigate('/')}/>
             <nav ref={navRef}>
                 <HashLink smooth to='/#about'>About</HashLink>
                 <Link to={'/services'} >Services</Link>

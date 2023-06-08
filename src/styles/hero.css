@@ -32,6 +32,7 @@
     .hero-section{
         justify-content: start;
         margin: 0 200px;
+        height: calc(100% - 150px);
     }
 
     .hero-content-sec{
