@@ -14,19 +14,46 @@
 .services-section-sum{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../components/images/concrete.jpg');
+    height: 300px;
+    width: 250px;
+    background-position: 0px 0px;
+    margin: 20px auto;
 }
 
 .services-section-sum > p{
-    background-color: antiquewhite;
-    width: 300px;
+    background-color: rgb(250, 235, 215, 0.8);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    /* width: 300px;
+    height: 250px; */
     padding: 10px;
 }
 
 .H-service_box{
-    margin: 10px 0;
+    margin: 10px 5px;
     border-bottom: .8px solid rgb(161, 160, 160);
 }
 
 .H-service_box > h5{
     color: burlywood;
+}
+
+@media screen and (min-width: 992px){
+    .H-services-container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .services-section-sum{
+        height: 500px;
+        width: 350px;
+    }
+
+    .H-service_box{
+        margin: 10px 50px 10px 0px;
+        border-bottom: .8px solid rgb(161, 160, 160);
+    }
 }

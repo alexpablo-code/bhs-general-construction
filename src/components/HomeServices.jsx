@@ -37,14 +37,16 @@ const [services] = useState([
                     <div className="services-section-sum">
                         <p>We specialize in providing excellent and affordable concrete services, including concrete installation jobs, slabs, and repair services.</p>
                     </div>
-                    {
-                        services.map(service => (
-                            <div className="H-service_box">
-                                <h5>{service.name}</h5>
-                                <p>{service.description}</p>
-                            </div>
-                        ))
-                    }
+                    <div>
+                        {
+                            services.map(service => (
+                                <div className="H-service_box">
+                                    <h5>{service.name}</h5>
+                                    <p>{service.description}</p>
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </section>
