@@ -1,0 +1,36 @@
+
+
+.reviews-section{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../components/images/reviews_backg.png');
+    background-position: 0px 10px;
+    /* height: 500px; */
+}
+
+.reviews-section > h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.reviews-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+.review-box{
+    background-color: white;
+    padding: 20px;
+}
+
+.review-auth-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-icon{
+    color: goldenrod;
+}
