@@ -1,0 +1,45 @@
+
+
+.s-hero-bg{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/retaining_wall.png');
+    background-repeat: cover;
+    height: 80vh;
+    background-position: 50% 35%;
+}
+
+.s-hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 80px);
+}
+
+.s-hero-content-sec{
+    color: white;
+    text-align: center;
+    margin: 0 15px;
+}
+
+
+@media screen and (min-width: 992px){
+    .s-hero-section{
+        justify-content: start;
+        margin: 0 200px;
+        height: calc(100% - 150px);
+    }
+
+    .s-hero-content-sec{
+        text-align: start;
+    }
+
+    .s-hero-content-sec > h2{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .s-hero-content-sec > p{
+        font-size: 20px;
+        margin-bottom: 20px;
+        width: 600px;
+    }
+
+}
