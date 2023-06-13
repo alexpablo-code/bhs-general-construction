@@ -89,10 +89,14 @@ nav a:hover{
 
   header{
     height: 150px;
-    padding: 0 2rem;
+    padding: 0 80px;
   }
 
   .site-logo{
     height: 200px;
+  }
+
+  nav{
+    margin-top: 40px;
   }
 }

@@ -47,6 +47,14 @@
         grid-template-columns: 1fr 2fr;
     }
 
+    .H-sercives-content-box > h3{
+        font-size: 45px;
+    }
+
+    .H-service_box > h5{
+        font-size: 30px;
+    }
+
     .services-section-sum{
         height: 500px;
         width: 350px;

@@ -47,4 +47,9 @@
         font-size: 20px;
         margin-bottom: 20px;
     }
+
+    .hero-content-sec > button{
+        padding: 10px;
+        font-size: 20px;
+    }
 }

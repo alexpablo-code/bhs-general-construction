@@ -24,6 +24,7 @@
 .review-box{
     background-color: white;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .review-auth-date{
@@ -31,6 +32,26 @@
     justify-content: space-between;
 }
 
+.stars{
+    margin-bottom: 15px;
+}
 .star-icon{
     color: goldenrod;
+    height: 20px;
+    width: 30px;
+}
+
+@media screen and (min-width: 992px){
+    .reviews-section{
+        padding-left: 100px;
+    }
+    .reviews-section > h3{
+        text-align: start;
+        font-size: 45px;
+    }
+
+    .reviews-container{
+        width: 70%;
+        grid-template-columns: 1fr 1fr;
+    }
 }

@@ -1,0 +1,38 @@
+
+
+.contact-section{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/contact_bg.png');
+    background-repeat: cover;
+    background-position: 50%;
+    height: 400px;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
+
+.contact-section > h3{
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.contact-icons{
+    color: goldenrod;
+    margin: 5px 10px 0px 0px;
+}
+
+.contact-line{
+    display: flex;
+}
+
+@media screen and (min-width:992px){
+    .contact-section{
+        padding: 100px 250px;
+        height: 500px;
+    }
+
+    .contact-section > h3{
+        font-size: 45px;
+        width: 400px;
+    }
+}

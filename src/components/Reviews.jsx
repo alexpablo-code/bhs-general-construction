@@ -1,5 +1,5 @@
 import '../styles/reviews.css';
-import {AiFillStar} from 'react-icons/ai'
+import {FaStar} from 'react-icons/fa'
 
 const Reviews = () => {
     return (
@@ -8,11 +8,11 @@ const Reviews = () => {
             <div className="reviews-container">
                 <div className="review-box">
                     <div className="stars">
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
                     </div>
                     <p>They are brilliant when it comes to do construction job with ease</p>
                     <div className="review-auth-date">
@@ -22,11 +22,25 @@ const Reviews = () => {
                 </div>
                 <div className="review-box">
                     <div className="stars">
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                    </div>
+                    <p>Hired BHS Structures to repair rotted staircase, exterior siding and some miscellaneous items. Work was very high quality and price was reasonable. Also very responsive and professional. These guys know what they are doing and I would give them six stars if I could.</p>
+                    <div className="review-auth-date">
+                        <p>Patrick P</p>
+                        <p>2023-01-15</p>
+                    </div>
+                </div>
+                <div className="review-box">
+                    <div className="stars">
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
+                        <FaStar className='star-icon' />
                     </div>
                     <p>Great service</p>
                     <div className="review-auth-date">
@@ -34,21 +48,7 @@ const Reviews = () => {
                         <p>2023-01-25</p>
                     </div>
                 </div>
-                <div className="review-box">
-                    <div className="stars">
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                        <AiFillStar className='star-icon' />
-                    </div>
-                    <p>Hired BHS Structures to repair rotted staircase, exterior siding and some miscellaneous items. Work was very high quality and price was reasonable. Also very responsive and professional. These guys know what they are doing and I would give them six stars if I could.</p>
-                    <div className="review-auth-date">
-                    <p>Patrick P</p>
 
-            </div>
-                    <p>2023-01-15</p>
-                </div>
             </div>
             
         </section>
