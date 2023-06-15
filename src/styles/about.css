@@ -1,5 +1,5 @@
 .about-section{
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .about-box > h3{
@@ -12,19 +12,53 @@
 
 .about-box{
     padding: 10px 25px;
-    margin: 10px 30px;
+    margin: 30px 30px;
     border-radius: 15px;
     box-shadow: 10px 10px 6px -3px rgba(0,0,0,0.3);
+    background-color: white;
+}
+
+.about-img{
+    height: 200px;
+    margin: 0 28px;
+    border-radius: 10px;
 }
 
 @media screen and (min-width: 992px){
+    .about-section{
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        height: 700px;
+    }
+    
+    .about-img{
+        width: 500px;
+        height: auto;
+    }
+
+    .about1{
+        grid-area: 1/ 2 / 3 / 5;
+        margin: 30px auto 0;
+        /* grid-area: row-start col-start row-end col-end; */
+    }
+
+    .about2{
+        grid-area: 3/ 6 / 5 / 9;
+        /* grid-area: row-start col-start row-end col-end; */
+        margin: 0;
+    }
+
     .about-box{
         width: 500px;
-        margin: 50px auto;
+        margin: 10px 30px;
         padding: 50px;
+        grid-area: 2 / 4 / 4 / 7 ;
+        z-index: 1;
     }
 
     .about-box > h3{
         font-size: 45px;
     }
+
 }

@@ -14,7 +14,7 @@ const Contact = () => {
                 <FaLocationArrow className='contact-icons'/><p>2196 California Ave E, Port Orchard, WA 98366</p>
             </div>
             <div className='contact-line'>
-                <FaClock className='contact-icons'/> <p>Mon - Sat 7 am to 5pm <br/>Sunday Closed </p>
+                <FaClock className='contact-icons'/> <p>Mon - Sat  7am to 5pm <br/>Sunday Closed </p>
             </div>
         </section>
     );
