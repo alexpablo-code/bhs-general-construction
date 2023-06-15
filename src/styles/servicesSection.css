@@ -4,12 +4,19 @@
 
 .services-box{
     margin: 35px 15px;
+    display: grid;
+    justify-content: center;
 }
 
 .service-text-side > h3{
     background-color: rgba(253, 227, 193, 0.8);
     padding: 10px 5px;
+    margin: auto;
     width: 250px;
+}
+
+.service-text-side > h3, .service-text-side > p{
+    text-align: center;
 }
 
 .services-nav{
@@ -24,9 +31,22 @@
     margin: 10px 0;
 }
 
-.service-text-side > p{
-    margin: 15px 0;
+.service-text-side > ul{
+    width: 60%;
+    margin: 0 auto;
 }
+
+.service-img{
+    height: 250px;
+    margin: 10px auto;
+}
+
+.service-text-side > p{
+    margin: 15px auto;
+    /* width: 70%; */
+}
+
+
 
 .services-nav > li:hover{
     color: burlywood;
@@ -55,6 +75,7 @@
     .service-text-side > h3{
         width: 280px;
     }
+    
 
     .service-text-side > p, .service-text-side > ul{
         font-size: 20px;
