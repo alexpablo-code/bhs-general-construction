@@ -3,6 +3,7 @@
 
 
 .gallery-title-container > h2{
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     margin: 40px;
@@ -17,8 +18,33 @@
     text-align: center;
 }
 
+.project-text-side > h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.project-text-side > h6{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
 .project-image{
     width: 300px;
+}
+
+.slide-container{
+    width: 300px;
+    margin: 0px auto;
+}
+
+.each-slide-effect > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 200px;
+    /* border-radius: 15px; */
 }
 
 
@@ -49,9 +75,32 @@
         text-align: start;
         width: 80%;
     }
+    .project-text-side > h3{
+        font-weight: bold;
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .project-text-side > h6{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
 
     .project-image{
         width: 800px;
         margin: 0px auto;
+    }
+
+    .slide-container{
+        width: 800px;
+        margin: 0px auto;
+    }
+
+    .each-slide-effect > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        height: 500px;
     }
 }
