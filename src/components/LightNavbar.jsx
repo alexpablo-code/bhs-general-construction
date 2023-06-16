@@ -1,10 +1,11 @@
+import '../styles/lightNavbar.css';
 import { Link, useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { useRef } from "react";
-const logo = require('./images/business_logo.png');
+const logo = require('./images/blk_font_logo.png');
 
-const Navbar = () => {
+const LightNavbar = () => {
     const navRef = useRef();
     const navigate = useNavigate();
 
@@ -13,10 +14,10 @@ const Navbar = () => {
     }
 
     return (
-        <header className="site-header">
+        <header className='light-header'>
             <img src={logo} alt="site-logo" className="site-logo" onClick={() => navigate('/')}/>
             <div>
-                <nav ref={navRef} className="site-nav">
+                <nav ref={navRef} className='light-nav'>
                     <HashLink smooth to='/#about' onClick={showNavbar}>About</HashLink>
                     <Link to={'/services'} >Services</Link>
                     <Link to={'/gallery'} >Gallery</Link>
@@ -33,4 +34,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default LightNavbar;

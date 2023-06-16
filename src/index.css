@@ -17,7 +17,7 @@ code {
   margin: 0;
 }
 
-header {
+.site-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,14 +31,14 @@ header {
   height: 100px;
 }
 
-nav a {
+.site-nav a {
   margin: 0 2rem;
   color: white;
   text-decoration: none;
   font-size: 25px;
 }
 
-nav a:hover{
+.site-nav a:hover{
   color: blue;
 }
 
@@ -60,7 +60,7 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 992px){
-  nav{
+  .site-nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -87,7 +87,7 @@ nav a:hover{
     visibility: hidden;
   }
 
-  header{
+  .site-header{
     height: 150px;
     padding: 0 80px;
   }
@@ -96,7 +96,7 @@ nav a:hover{
     height: 200px;
   }
 
-  nav{
+  .site-nav{
     margin-top: 40px;
   }
 }

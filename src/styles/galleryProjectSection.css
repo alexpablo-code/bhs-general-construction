@@ -1,0 +1,57 @@
+
+
+
+
+.gallery-title-container > h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.project-box{
+    width: 90%;
+    margin: 0px auto 30px;
+}
+
+.project-text-side{
+    text-align: center;
+}
+
+.project-image{
+    width: 300px;
+}
+
+
+
+
+@media screen and (min-width: 992px){
+
+    .project-box{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        margin: 0px auto 100px;
+        
+    }
+
+    .gallery-title-container{
+        width: 94%;
+        margin: 0px auto 80px;
+    }
+
+    .gallery-title-container > h2{
+        text-align: start;
+        font-size: 50px;
+    }
+
+    .project-text-side{
+        margin: auto auto;
+        text-align: start;
+        width: 80%;
+    }
+
+    .project-image{
+        width: 800px;
+        margin: 0px auto;
+    }
+}
