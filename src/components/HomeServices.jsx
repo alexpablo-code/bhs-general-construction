@@ -1,31 +1,28 @@
 import { useState } from "react";
 import '../styles/homeServices.css';
+import { Link } from "react-router-dom";
 
 const HomeServices = () => {
 const [services] = useState([
     {
         name: 'Concrete Repair',
-        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
+        description:'As you already may know, concrete ages over time. Without proper maintenance, it can easily chip or crack and it can be a huge hassle to fix. This is why you should contact our team of experts a call for a concrete repair service.'
     },
     {
         name: 'Concrete Instalation',
-        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
-    },
-    {
-        name: 'Concrete Service',
-        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
+        description:'We can visit your location and offer a free estimate for your concrete project. Our professional and punctual team will deliver a quote covering everything required for your project on budget and time.'
     },
     {
         name: 'Foundation',
-        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
+        description:'The foundation of your property is one of the most important elements when it comes to its safety and reliability. Hire us for a foundation pouring or repair service!'
     },
     {
         name: 'Decorative Concrete',
-        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
+        description:'If you’re planning to add some hardscaping to your property, consider using decorative concrete. It’s attractive and elegant, and it can bring out the beauty of your home and make it stand out. '
     },
     {
         name: 'Concrete Slabs',
-        description:'lrem ispum djfjhg ifhui fidjsio hgnae djje ldiehb rehi dehesr iueosadn'
+        description:'Pouring a concrete slab yourself can be a huge mistake. This is why you should turn to us for a concrete slab pouring. We have the tools and techniques so you get concrete forms right the first time!'
     }
 ])
 
@@ -46,6 +43,9 @@ const [services] = useState([
                                 </div>
                             ))
                         }
+                        <div className="services-link">
+                            <Link to={'/services'}>Learn More </Link>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import '../styles/projects.css';
+import { Link } from 'react-router-dom';
 const collage = require('../components/images/work_collage.png');
 
 const Projects = () => {
@@ -6,7 +7,7 @@ const Projects = () => {
         <section className="projects-section">
             <div className='projects-left'>
                 <h3 className='projects-title'>Here are some of our recent projects</h3>
-                <button className='gallery-button'>View our complete gallery</button>
+                <button className='gallery-button'><Link to={'/gallery'} >View our complete gallery</Link></button>
             </div>
             <img src={collage} alt="projects-collage" />
         </section>

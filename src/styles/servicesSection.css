@@ -72,8 +72,13 @@
         width: 60%;
     }
 
+    .service-text-side > h3, .service-text-side > p{
+        text-align: start;
+    }
+
     .service-text-side > h3{
         width: 280px;
+        margin: 0;
     }
     
 
