@@ -19,8 +19,9 @@
 }
 
 .about-img{
-    height: 200px;
-    margin: 0 28px;
+    /* height: 200px; */
+    width: 300px;
+    margin: 0 40px;
     border-radius: 10px;
 }
 

@@ -48,7 +48,7 @@ code {
   background: transparent;
   border: none;
   outline: none;
-  color: blue;
+  color:white;
   opacity: 1;
   font-size: 1.5rem;
 }
@@ -71,9 +71,14 @@ code {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: navy;
+    background-color: rgb(253, 250, 244);
     transition: 1s;
     transform: translateY(-100vh);
+  }
+  .site-nav a{
+    color: black;
+    font-weight: 700;
+    margin-bottom: 20px;
   }
   
   .responsive_nav{

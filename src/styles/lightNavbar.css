@@ -23,13 +23,13 @@
     color: blue;
 }
 
-.nav-btn {
+.light-nav-btn {
     padding: 5px;
     cursor: pointer;
     background: transparent;
     border: none;
     outline: none;
-    color: blue;
+    color: black;
     opacity: 1;
     font-size: 1.5rem;
 }
@@ -52,7 +52,7 @@
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: navy;
+        background-color: whitesmoke;
         transition: 1s;
         transform: translateY(-100vh);
     }

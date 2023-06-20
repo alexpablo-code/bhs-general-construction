@@ -26,7 +26,7 @@ const LightNavbar = () => {
                         <FaTimes/>
                     </button>
                 </nav>
-                <button className="nav-btn" onClick={showNavbar}>
+                <button className="light-nav-btn" onClick={showNavbar}>
                     <FaBars/>
                 </button>
             </div>
