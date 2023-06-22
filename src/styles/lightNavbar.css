@@ -55,6 +55,7 @@
         background-color: whitesmoke;
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 1;
     }
 
     .responsive_nav {
@@ -64,7 +65,7 @@
 
 
 @media screen and (min-width: 992px) {
-    .nav-btn {
+    .light-nav-btn {
         visibility: hidden;
     }
 

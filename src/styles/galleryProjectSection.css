@@ -3,25 +3,27 @@
 
 
 .gallery-title-container > h2{
+    width: 90%;
     font-size: 35px;
     text-align: center;
     font-weight: bold;
-    margin: 40px;
+    margin: 40px auto;
 }
 
 .project-box{
     width: 90%;
-    margin: 0px auto 30px;
+    margin: 0px auto 50px;
 }
 
 .project-text-side{
-    text-align: center;
+    text-align: start;
+    margin: 0 10px;
 }
 
 .project-text-side > h3{
     font-weight: bold;
     font-size: 25px;
-    margin-bottom: 15px;
+    margin: 15px 0px;
 }
 
 .project-text-side > h6{
@@ -29,12 +31,8 @@
     margin-bottom: 25px;
 }
 
-.project-image{
-    width: 300px;
-}
-
 .slide-container{
-    width: 300px;
+    width: 340px;
     margin: 0px auto;
 }
 
@@ -44,7 +42,7 @@
     justify-content: center;
     background-size: cover;
     height: 200px;
-    /* border-radius: 15px; */
+    border-radius: 15px;
 }
 
 
@@ -58,6 +56,20 @@
         grid-template-columns: 1fr 1fr;
         margin: 0px auto 100px;
         
+    }
+
+    .project-box.even .project-text-side{
+        order: 1;
+    }
+    .project-box.even .slide-container{
+        order: 2;
+    }
+
+    .project-box.odd .slide-container{
+        order: 1;
+    }
+    .project-box.odd .project-text-side{
+        order: 2;
     }
 
     .gallery-title-container{
