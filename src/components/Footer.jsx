@@ -8,7 +8,7 @@ const Footer = () => {
         <footer>
             <img src={logo} alt="site-logo" className="footer-logo" onClick={() => navigate('/')}/>
             <p>©️ Copyright 2023. All rights reserved</p>
-            <p>Website by: Alex Pabloooooooooooo2222222</p>
+            <p>Website by: <a href='https://www.instagram.com/the.alexpablo'>Alex Pablo</a></p>
         </footer>
     );
 }
