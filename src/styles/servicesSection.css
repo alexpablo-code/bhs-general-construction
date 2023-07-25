@@ -52,21 +52,25 @@
 }
 
 .installation-img{
-    background-image: url('../components/images/installation_mob.png');
+    background-image: url('../components/images/Concrete\ Installation-mobile.png');
 }
+/* installation_mob.png changed to  Concrete\ Installation-mobile.png */
 .repair-img{
     background-image: url('../components/images/repair_mob.png');
 }
 .foundation-img{
-    background-image: url('../components/images/foundation_mob.png');
+    background-image: url('../components/images/Foundation-mobile.png');
 }
+/* foundation_mob.png changed to Foundation-mobile.png */
 .decorative-img{
-    background-image: url('../components/images/decorative_mob.png');
+    background-image: url('../components/images/Decorative\ concrete-mobile.png');
 }
+/* decorative_mob.png changed to Decorative\ concrete-mobile.png */
 .slabs-img{
-    background-image: url('../components/images/slab_mob.png');
+    background-image: url('../components/images/concrete\ slabs-mobile.png');
     background-position: left;
 }
+/* slab_mob.png changed to concrete\ slabs-mobile.png */
 
 .service-mob-img{
     height: 250px;
@@ -125,18 +129,23 @@
     }
 
     .installation-img{
-        background-image: url('../components/images/patio.png');
+        background-image: url('../components/images/Concrete\ Installation-destop.png');
     }
+    /* patio.png changed to Concrete\ Installation-destop.png */
     .repair-img{
         background-image: url('../components/images/concrete_repair.png');
     }
     .foundation-img{
         background-position: bottom;
+        background-image: url('../components/images/Foundation-destop.png');
     }
+
     .decorative-img{
-        background-image: url('../components/images/decorative_concrete.png');
+        background-image: url('../components/images/Decorative\ concrete-desktop.png');
     }
+    /* decorative_concrete.png changed to Decorative\ concrete-desktop.png  */
     .slabs-img{
-        background-image: url('../components/images/slabs.png');
+        background-image: url('../components/images/concrete\ slabs-destop.png');
     }
+    /* slabs.png changed to concrete\ slabs-destop.png */
 }

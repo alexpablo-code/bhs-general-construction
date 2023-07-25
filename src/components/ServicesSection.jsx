@@ -8,7 +8,7 @@ const ServicesSection = () => {
         <section className="services-section">
             <ul className="services-nav">
                 <li><a href="#installation-service">Concrete Installation</a></li>
-                <li><a href="#repair-service">Concrete Repair</a></li>
+              
                 <li><a href="#foundation-service">Foundation</a></li>
                 <li><a href="#decorative-service">Decorative Concrete</a></li>
                 <li><a href="#slabs-service">Concrete Slabs</a></li>
@@ -28,13 +28,7 @@ const ServicesSection = () => {
 
                     </div>
                 </div>
-                <div className="services-box" id="repair-service">
-                    <div alt="concrete-slabs" className="service-bg-img repair-img"></div>
-                    <div className="service-text-side">
-                        <h3>Concrete Repair</h3>
-                        <p>As you already may know, concrete ages over time. Without proper maintenance, it can easily chip or crack and it can be a huge hassle to fix. This is why you should contact our team of experts a call for a concrete repair service.</p>
-                    </div>
-                </div>
+               
                 <div className="services-box" id="foundation-service">
                     <div alt="concrete-slabs" className="service-bg-img foundation-img"></div>
                     <div className="service-text-side">
