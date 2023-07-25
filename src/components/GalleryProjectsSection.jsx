@@ -9,10 +9,39 @@ const about2 = require('../components/images/about_2.png');
 const GalleryProjectsSection = () => {
 
     const slideImages = [
-        require('../components/images/pool_project.png'),
-        require('../components/images/patio_project.png'),
-        require('../components/images/about_1.png'),
-        require('../components/images/about_2.png'),
+        require('../components/images/coffeshop1.png'),
+        require('../components/images/coffeshop2.png'),
+        require('../components/images/coffeshop3.png'),
+        require('../components/images/coffeshop4.png'),
+        require('../components/images/coffeshop5.png'),
+        require('../components/images/coffeshop6.png'),
+    ];
+
+    const slideImages2 = [
+        require('../components/images/homewtown1.png'),
+        require('../components/images/homewtown2.png'),
+        require('../components/images/homewtown3.png'),
+        require('../components/images/homewtown4.png'),
+        require('../components/images/homewtown5.png'),
+        require('../components/images/homewtown6.png'),
+    ];
+
+    const slideImages3 = [
+        require('../components/images/sport1.png'),
+        require('../components/images/sport2.png'),
+        require('../components/images/sport3.png'),
+        require('../components/images/sport4.png'),
+        require('../components/images/sport5.png'),
+        require('../components/images/sport6.png'),
+    ];
+
+    const slideImages4 = [
+        require('../components/images/water1.png'),
+        require('../components/images/water1.png'),
+        require('../components/images/water3.png'),
+        require('../components/images/water4.png'),
+        require('../components/images/water5.png'),
+        require('../components/images/water6.png'),
     ];
     // const imagesUrlExample = [ 
     //     {
@@ -59,7 +88,7 @@ const GalleryProjectsSection = () => {
                 <div className='slide-container'>
                     <Slide>
                         {
-                            slideImages.map((image, index) => (
+                            slideImages2.map((image, index) => (
                                 <div key={index} className='each-slide-effect'>
                                     <div style={{ 'backgroundImage': `url(${image})` }}>
                                         <span></span>
@@ -79,7 +108,7 @@ const GalleryProjectsSection = () => {
                 <div className='slide-container'>
                     <Slide>
                         {
-                            slideImages.map((image, index) => (
+                            slideImages3.map((image, index) => (
                                 <div key={index} className='each-slide-effect'>
                                     <div style={{ 'backgroundImage': `url(${image})` }}>
                                         <span></span>
@@ -99,7 +128,7 @@ const GalleryProjectsSection = () => {
                 <div className='slide-container'>
                     <Slide>
                         {
-                            slideImages.map((image, index) => (
+                            slideImages4.map((image, index) => (
                                 <div key={index} className='each-slide-effect'>
                                     <div style={{ 'backgroundImage': `url(${image})` }}>
                                         <span></span>
