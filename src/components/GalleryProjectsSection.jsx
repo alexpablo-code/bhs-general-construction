@@ -43,6 +43,15 @@ const GalleryProjectsSection = () => {
         require('../components/images/water5.png'),
         require('../components/images/water6.png'),
     ];
+
+    const slideImages5 = [
+        require('../components/images/bank1.png'),
+        require('../components/images/bank2.png'),
+        require('../components/images/bank3.png'),
+        require('../components/images/bank4.png'),
+        require('../components/images/bank5.png'),
+        require('../components/images/bank6.png'),
+    ];
     // const imagesUrlExample = [ 
     //     {
     //         url: 'https://images.unsplash.com/photo-123234',
@@ -108,7 +117,7 @@ const GalleryProjectsSection = () => {
                 <div className='slide-container'>
                     <Slide autoplay={false}>
                         {
-                            slideImages3.map((image, index) => (
+                            slideImages5.map((image, index) => (
                                 <div key={index} className='each-slide-effect'>
                                     <div style={{ 'backgroundImage': `url(${image})` }}>
                                         <span></span>
