@@ -90,7 +90,7 @@ const GalleryProjectsSection = () => {
                 <div className="project-text-side">
                     <h3>Gravity Coffee - Port Orchard</h3>
                     <h6>Concrete Installation & Foundation</h6>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Enjoy a glimpse of one of our proudest achievements, the Gravity Coffee project. Our expert team undertook the concrete installation and foundation work for this establishment, contributing to the sturdy and reliable infrastructure that supports this vibrant Port Orchard spot.</p>
                 </div>
             </div>
             <div className="project-box odd">
@@ -110,7 +110,7 @@ const GalleryProjectsSection = () => {
                 <div className="project-text-side">
                     <h3>Manette View Town Homes - Bremerton</h3>
                     <h6>Concrete Foundation</h6>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Discover our involvement in the development of the Manette Town Homes. With our specialized expertise, we took charge of the concrete foundation work, playing a crucial role in establishing the strong base upon which these modern homes stand proudly in Bremerton's charming Manette neighborhood.</p>
                 </div>
             </div>
             <div className="project-box even">
@@ -130,7 +130,7 @@ const GalleryProjectsSection = () => {
                 <div className="project-text-side">
                     <h3>Liberty Bank - Poulsbo</h3>
                     <h6>Concrete Slabs</h6>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Step into our contribution to the vibrant business landscape with the Liberty Bank project. As an essential part of this commercial endeavor, we took on the responsibility of crafting the foundation and concrete slabs. Our dedication to precision and quality shines through, providing the reliable groundwork that supports the growth and success of Liberty Bank in Poulsbo, Washington.</p>
                 </div>
             </div>
             <div className="project-box odd">
@@ -150,7 +150,7 @@ const GalleryProjectsSection = () => {
                 <div className="project-text-side">
                     <h3>Home Sports Court</h3>
                     <h6>Concrete Installation</h6>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Experience the excitement of our involvement in a dynamic residential sports court project. Taking the lead from the very beginning, we orchestrated the entire process, commencing with the creation of the concrete foundation. The end result is nothing short of spectacular – a beautifully realized sports court that stands as a testament to our expertise and passion for turning visions into reality.</p>
                 </div>
             </div>
             <div className="project-box even">
@@ -168,9 +168,9 @@ const GalleryProjectsSection = () => {
                     </Slide>
                 </div>
                 <div className="project-text-side">
-                    <h3>Water Retention Wall - Location?</h3>
+                    <h3>Water Retention Wall - Silverthorne Silverdale</h3>
                     <h6>Retention Wall</h6>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>As a testament to our capabilities, we undertook the monumental task of constructing a retention wall that spans an impressive 400 feet in length and soars to a height of 18 feet. Our expertise in structural integrity shines through in this project, offering not only functional water management but also an awe-inspiring example of our commitment to excellence in construction.</p>
                 </div>
             </div>
         </section>
