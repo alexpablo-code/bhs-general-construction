@@ -10,21 +10,37 @@
 }
 
 @keyframes slide{
-    25%{
+    12%{
         background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/coffeshop6.png');
         background-position: 60% 95%;
     }
-    50%{
+    24%{
         background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/manetteview_townhomes.jpg');
         background-position: 25% 95%;
     }
-    75%{
+    36%{
         background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/bank6.png');
         background-position: 100% 95%;
     }
-    100%{
+    48%{
         background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/sport6.png');
         background-position: 10% 0%;
+    }
+    60%{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/concrete_slabs_front.png');
+        background-position: 100% 95%;
+    }
+    72%{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/front_stairs.png');
+        background-position: 25% 95%;
+    }
+    84%{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/decorative_driveway.png');
+        background-position: 100% 95%;
+    }
+    100%{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/concrete_and_fireplace.png');
+        background-position: 25% 95%;
     }
 }
 
