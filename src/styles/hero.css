@@ -6,7 +6,7 @@
     height: 60vh;
     background-position: 25% 95%;
     background-size: cover;
-    animation: slide 20s infinite;
+    animation: slide 35s infinite;
 }
 
 @keyframes slide{
@@ -78,20 +78,36 @@
         background-position: 0% 55%;
     }
     @keyframes slide{
-        25%{
+        12%{
             background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/coffeshop6.png');
             background-position: 10% 25%;
         }
-        50%{
+        24%{
             background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/manetteview_townhomes.jpg');
             background-position: 25% 90%;
         }
-        75%{
+        36%{
             background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/bank6.png');
             background-position: 50% 15%;
         }
-        100%{
+        48%{
             background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/sport6.png');
+            background-position: 70% 75%;
+        }
+        60%{
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/concrete_slabs_front.png');
+            background-position: 70% 25%;
+        }
+        72%{
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/front_stairs.png');
+            background-position: 70% 75%;
+        }
+        84%{
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/decorative_driveway.png');
+            background-position: 70% 25%;
+        }
+        100%{
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/concrete_and_fireplace.png');
             background-position: 70% 75%;
         }
     }
