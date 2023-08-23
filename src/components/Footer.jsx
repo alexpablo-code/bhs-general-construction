@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer>
             <img src={logo} alt="site-logo" className="footer-logo" onClick={() => navigate('/')}/>
-            <p>©️ Copyright 2023. All rights reserved</p>
+            <p>©️ 2023 BHS General Construction. All rights reserved</p>
             <p>Website by: <a href='https://www.instagram.com/the.alexpablo'>Alex Pablo</a></p>
         </footer>
     );
