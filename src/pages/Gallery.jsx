@@ -9,7 +9,7 @@ const Gallery = () => {
         <div>
             <LightNavbar/>
             <div className='gallery-title-container'>
-                <h2>Project Gallery</h2>
+                <h2>Our Projects</h2>
             </div>
             <GalleryProjectsSection/>
             <Contact/>
