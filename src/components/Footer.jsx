@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/footer.css'
 import { useNavigate } from 'react-router-dom';
 const logo = require('../components/images/blk_font_logo.png');

@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/hero.css';
 import Navbar from './Navbar';
 import { HashLink } from "react-router-hash-link";

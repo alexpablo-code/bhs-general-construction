@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/contact.css';
 import {FaPhoneAlt} from 'react-icons/fa';
 import {FaLocationArrow} from 'react-icons/fa';

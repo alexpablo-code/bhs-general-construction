@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/galleryProjectSection.css';
 import LightNavbar from '../components/LightNavbar';
 import Contact from '../components/Contact';

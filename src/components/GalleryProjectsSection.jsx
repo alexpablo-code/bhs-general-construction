@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/galleryProjectSection.css';
 import {Slide} from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';

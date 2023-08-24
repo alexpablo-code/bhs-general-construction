@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/projects.css';
 import { Link } from 'react-router-dom';
 const collage = require('../components/images/work_collage.png');

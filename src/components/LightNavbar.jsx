@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/lightNavbar.css';
 import { Link, useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";

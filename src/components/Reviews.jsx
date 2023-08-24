@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/reviews.css';
 import {FaStar} from 'react-icons/fa'
 

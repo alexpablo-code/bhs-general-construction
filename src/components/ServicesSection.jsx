@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import '../styles/servicesSection.css';
 import { HashLink } from "react-router-hash-link";

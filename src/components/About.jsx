@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/about.css';
 const about1 = require('../components/images/about_1.png');
 const about2 = require('../components/images/about_2.png');
