@@ -1,3 +1,4 @@
+import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import ServicesPage from './pages/ServicesPage';
@@ -10,7 +11,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage/>}/>
           <Route path='/services' element={<ServicesPage/>}/>
-          <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/projects' element={<Gallery/>}/>
         </Routes>
       </div>
     </BrowserRouter>
