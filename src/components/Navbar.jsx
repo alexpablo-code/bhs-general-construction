@@ -20,7 +20,7 @@ const Navbar = () => {
                 <nav ref={navRef} className="site-nav">
                     <HashLink smooth to='/#about' onClick={showNavbar}>About</HashLink>
                     <Link to={'/services'} >Services</Link>
-                    <Link to={'/gallery'} >Gallery</Link>
+                    <Link to={'/projects'} >Our Projects</Link>
                     <HashLink smooth to='/#contact' onClick={showNavbar}>Contact</HashLink>
                     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                         <FaTimes/>
