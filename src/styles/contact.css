@@ -1,7 +1,7 @@
 
 
 .contact-section{
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../components/images/contact_bg.png');
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../components/images/decorative_driveway.jpg');
     background-repeat: cover;
     background-position: 50%;
     height: 400px;
