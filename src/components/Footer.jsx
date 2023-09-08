@@ -16,7 +16,7 @@ const Footer = () => {
       <p>©️ 2023 BHS General Construction. All rights reserved</p>
       <p>
         Website by:{" "}
-        <a href="https://www.instagram.com/the.alexpablo">Alex Pablo</a>
+        <a href="https://www.instagram.com/the.alexpablo">Aldente Digitals</a>
       </p>
     </footer>
   );

@@ -47,13 +47,33 @@ const Contact = () => {
           Sunday Closed{" "}
         </p>
       </div>
-      <h5>Or send us a message</h5>
-      <form ref={form} onSubmit={sendEmail}>
-        <input type="text" placeholder="Name" name="user_name" required />
-        <input type="text" placeholder="Email" name="user_email" required />
-        <textarea name="message" cols="30" rows="10"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <div>
+        <h5>Or send us a message</h5>
+        <form ref={form} onSubmit={sendEmail} className="contact-form">
+          <input
+            type="text"
+            placeholder="Name"
+            name="user_name"
+            required
+            className="form-input"
+          />
+          <input
+            type="text"
+            placeholder="Email"
+            name="user_email"
+            required
+            className="form-input"
+          />
+          <textarea
+            name="message"
+            cols="15"
+            rows="5"
+            placeholder="Message"
+            className="form-input"
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </section>
   );
 };
