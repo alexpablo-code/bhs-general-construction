@@ -38,7 +38,7 @@ const Contact = () => {
       </div>
       <div className="contact-line">
         <FaLocationArrow className="contact-icons" />
-        <p>2196 California Ave E, Port Orchard, WA 98366</p>
+        <p>Port Orchard, WA</p>
       </div>
       <div className="contact-line">
         <FaClock className="contact-icons" />{" "}
