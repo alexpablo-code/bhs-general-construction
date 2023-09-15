@@ -12,9 +12,23 @@ footer a {
     height: 100px;
 }
 
+.facebook-icon {
+    font-size: 40px; 
+    
+  }
+  
+.facebook-link p{
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.facebook-link {
+   padding-bottom: 20px;
+}
+
 @media screen and (min-width: 992px){
     footer{
-        display: flex;
+        
         justify-content: space-around;
         align-items: center;
         padding: 15px 0;
@@ -28,4 +42,29 @@ footer a {
     footer > p{
         margin: auto 0px;
     }
+
+
+    
+    .facebook-link {
+        align-items: center;
+        /* display: flex; */
+        justify-content: center;
+      }
+
+    .footer-end{
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .facebook-icon {
+        font-size: 50px; 
+      }
+
+      .facebook-link p{
+        font-size: 18px;
+        
+    }
+      
 }
